@@ -1,0 +1,47 @@
+.names {
+  font-size: 30px;
+  color: black;
+  margin-right: 20px;
+  font-weight: 700;
+  max-width: 700px;
+}
+.names:hover {
+  color: blue;
+  cursor: pointer;
+}
+.phones {
+  font-size: 25px;
+  font-weight: 700;
+  margin-right: 20px;
+  max-width: 700px;
+}
+.phones:hover {
+  color: blue;
+  cursor: pointer;
+}
+.buttons {
+  width: 70px;
+  height: 25px;
+  padding: 1px 5px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.buttons:hover {
+  color: blue;
+  background-color: #f1f1f1;
+  border: 2px solid black;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 780px;
+}
+.li:not(:last-child){
+    margin-bottom: 10px;
+}

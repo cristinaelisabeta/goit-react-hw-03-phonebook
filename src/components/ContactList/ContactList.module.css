@@ -1,0 +1,7 @@
+.list{
+    max-width: 800px;
+    margin-top: 20px;
+    padding: 30px;
+    border: 2px dashed black;
+    background-color: white;
+}
